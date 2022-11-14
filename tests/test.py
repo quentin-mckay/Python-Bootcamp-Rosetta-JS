@@ -1,10 +1,3 @@
-def collect_args(*args):
-    return args
+answer = [char for char in 'amazing' if char not in 'aeiou']
 
-print(collect_args(1,2,3))
-
-print(type('a'))
-
-
-lst = [1,2,3,4,5]
-
+print(answer)

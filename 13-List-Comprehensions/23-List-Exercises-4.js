@@ -1,4 +1,4 @@
 // ===== using filter =====
-let a = "amazing".split('').filter(char => !"aeiou".includes(char))
+let answer = "amazing".split('').filter(char => !"aeiou".includes(char))
 
 

@@ -1,5 +1,3 @@
-function returnDay(num) {
-    const days = ["Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"]
+let answer = 'amazing'.split('').filter(char => !'aeiou'.includes(char))
 
-    return days[num - 1]
-}
+console.log(answer)

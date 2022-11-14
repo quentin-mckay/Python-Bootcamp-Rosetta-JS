@@ -3,5 +3,5 @@ first = "Venus"
 last = "Williams"
 formatted = "First Name: {}, Last Name: {}".format(first, last)
 
-# Using F-Strings
+# Using f-Strings
 formatted = f"First Name: {first}, Last Name: {last}"

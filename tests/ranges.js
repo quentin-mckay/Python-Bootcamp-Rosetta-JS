@@ -14,3 +14,5 @@ let arr = [...Array(10).keys()]  // [0, 1, 2, ..., 9]
 let arr2 = Array.from(Array(10).keys(), n => n + 1)
 
 
+// without creating temporary intermediate array
+let arr = Array.from({ length: 10 }, (_, i) => i)

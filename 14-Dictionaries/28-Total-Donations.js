@@ -13,8 +13,15 @@ donations = {
 let total_donations = Object.values(donations).reduce((total, val) => total + val, 0)
 
 
-// using for .. in
+// using for .. in  (gets the index)
 let total_donations = 0
 for (let key in donations) {
     total_donations += donations[key]
+}
+
+
+// using for .. of  (gets the value)
+let total_donations = 0
+for (let val of donations) {
+    total_donations += val
 }
