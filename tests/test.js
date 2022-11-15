@@ -2,4 +2,8 @@
 
 // console.log(answer)
 
-let times = promp
+const range = require('lodash/range')
+
+let answer = range(1, 101).filter(n => n % 12 === 0)
+
+console.log(answer)

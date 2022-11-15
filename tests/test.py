@@ -2,10 +2,4 @@
 
 # print(answer)
 
-message = input("How's it going? ")
-
-while message != 'stop':
-    print(message)
-    
-    message = input()
-
+[n for n in range(3)]

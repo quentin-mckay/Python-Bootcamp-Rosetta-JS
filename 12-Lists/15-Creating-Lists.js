@@ -1,4 +1,4 @@
-let myStuff = [1, 2,0, "three", "four"]
+let myStuff = [1, 2, 0, "three", "four"]
 
 
 // ===== using lodash =====
