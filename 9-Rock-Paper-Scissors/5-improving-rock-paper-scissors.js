@@ -1,5 +1,7 @@
+// using npm library prompt-sync
 const prompt = require('prompt-sync')()
 
+// custom choice function
 function choice(arr) {
 	return arr[Math.floor(Math.random() * arr.length)]
 }

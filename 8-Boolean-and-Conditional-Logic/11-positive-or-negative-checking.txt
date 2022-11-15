@@ -1,0 +1,6 @@
+In this exercise x  and y  are two random variables.  The code at the top of the file randomly assigns them (we'll learn how it works later on).  For now, just leave it alone :)
+
+If both are positive numbers, print "both positive". 
+If both are negative, print "both negative". 
+Otherwise, tell us which one is positive and which one is negative, e.g. "x is positive and y is negative"
+The print statements are filled in for you, just add logic. 

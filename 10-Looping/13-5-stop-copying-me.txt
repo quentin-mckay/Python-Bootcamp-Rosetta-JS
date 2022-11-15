@@ -1,0 +1,1 @@
+Repeat everything the user says until the user says "stop copying me".

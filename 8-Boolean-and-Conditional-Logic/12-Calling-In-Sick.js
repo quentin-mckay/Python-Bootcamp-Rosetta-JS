@@ -1,7 +1,9 @@
+// custom choice function
 function choice(arr) {
   return arr[Math.floor(Math.random() * arr.length)]
 }
 
+// custom randint function
 function randint(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min
 }

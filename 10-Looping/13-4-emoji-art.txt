@@ -1,0 +1,11 @@
+Print the following with emojis using a for loop and then a while loop.
+
+#
+##
+###
+####
+#####
+######
+#######
+########
+#########

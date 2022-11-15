@@ -3,7 +3,7 @@ const range = require('lodash/range')
 
 let total = 0
 
-for (n of range(11, 20, 2)) {
+for (let n of range(11, 20, 2)) {
   total += n
 }
 
