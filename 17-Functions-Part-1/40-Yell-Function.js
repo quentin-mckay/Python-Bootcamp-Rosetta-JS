@@ -1,3 +1,3 @@
 function yell(string) {
-    return `${string.toUpperCawwse()}!`
+    return `${string.toUpperCase()}!`
 }

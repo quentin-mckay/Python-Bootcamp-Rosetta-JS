@@ -4,9 +4,9 @@
 
 const range = require('lodash/range')
 
-let person = {
-    name: 'Quentin',
-    age: 39
-}
+person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
 
-console.log(Object.keys(person))
+let answer = {}
+person.forEach(prop => answer[prop[0]] = prop[1])
+
+console.log(answer)

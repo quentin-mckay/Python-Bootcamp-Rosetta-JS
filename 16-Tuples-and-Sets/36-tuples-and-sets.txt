@@ -1,0 +1,7 @@
+Create a tuple with multiple values
+
+Create a tuple with a single value
+
+Create a tuple from a list
+
+Create a set from a list
