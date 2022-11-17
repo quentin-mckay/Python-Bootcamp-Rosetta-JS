@@ -20,6 +20,8 @@ for (let key in donations) {
 }
 
 
+
+
 // using for .. of  (gets the value)
 let total_donations = 0
 for (let val of donations) {

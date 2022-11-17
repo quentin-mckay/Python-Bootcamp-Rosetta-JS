@@ -1,5 +1,5 @@
-# answer = [char for char in 'amazing' if char not in 'aeiou']
+donations = dict(sam=25.0, lena=88.99, chuck=13.0, linus=99.5, stan=150.0, lisa=50.25, harrison=10.0) 
 
-# print(answer)
+total_donations = sum(donations.values())
 
-[n for n in range(3)]
+print(total_donations)

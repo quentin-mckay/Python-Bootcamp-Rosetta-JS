@@ -7,6 +7,7 @@ let answer = range(0, 10).map(n => range(0, 10))
 // ===== using vanilla =====
 let answer = [...Array(10).keys()].map(n => [...Array(10).keys()])
 
+
 // using for loops
 let answer = []
 for (let i = 0; i < 10; i++) {

@@ -4,3 +4,5 @@ total_donations = 0
 for val in donations.values():
     total_donations += val
 
+# or using sum
+total_donations = sum(donations.values())

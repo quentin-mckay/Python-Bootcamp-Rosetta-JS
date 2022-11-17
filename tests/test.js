@@ -4,6 +4,9 @@
 
 const range = require('lodash/range')
 
-let answer = range(1, 101).filter(n => n % 12 === 0)
+let person = {
+    name: 'Quentin',
+    age: 39
+}
 
-console.log(answer)
+console.log(Object.keys(person))
