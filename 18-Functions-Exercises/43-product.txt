@@ -1,0 +1,1 @@
+Write a function called product that accepts two parameters and returns the product of the two parameters (multiply them together)
