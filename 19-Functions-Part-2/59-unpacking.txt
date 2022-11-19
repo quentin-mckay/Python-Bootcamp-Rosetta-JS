@@ -1,0 +1,4 @@
+This time I've defined a function for you. It's called count_sevens ,and you need to call it twice.  
+
+First, call it with the arguments 1,4, and 7 and save the result to a variable called result1.  
+Next, call the same count_sevens function, passing in all the numbers contained in the nums list as individual arguments (unpack the list).  Save the result to a variable called result2 .
