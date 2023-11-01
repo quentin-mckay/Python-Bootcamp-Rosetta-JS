@@ -1,9 +1,14 @@
+# def vowel_count(string):
+#     totals = {}
+#     for letter in string.lower():
+#         if letter in 'aeiou':
+#             totals[letter] = totals.get(letter, 0) + 1
+#     return totals
+
+
 def vowel_count(string):
-    totals = {}
-    for letter in string.lower():
-        if letter in 'aeiou':
-            totals[letter] = totals.get(letter, 0) + 1
-    return totals
+    lower_s = string.lower()
+    return {letter: lower_s.count(letter) for letter in lower_s if letter in 'aeiou'}
 
 
 # Testing
